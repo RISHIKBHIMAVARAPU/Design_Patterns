@@ -14,3 +14,5 @@ iphoneStockObservable.setStockCount(10);
 iphoneStockObservable.removeObserver(phoneAlertObserver);
 iphoneStockObservable.setStockCount(0);
 iphoneStockObservable.setStockCount(10);
+
+//this more of like pub-sub model thing.
