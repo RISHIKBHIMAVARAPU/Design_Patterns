@@ -1,0 +1,16 @@
+export class HumanoidRobot {
+    constructor(type, body) {
+        this.body = body;
+        this.type = type;
+    }
+    // no setter functions because the class is immutable;
+    getType() {
+        return this.type;
+    }
+    getBody() {
+        return this.body;
+    }
+    display(x, y) {
+        // use the above humanoidRobot object to render the image
+    }
+}
