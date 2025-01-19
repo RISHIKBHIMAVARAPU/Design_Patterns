@@ -5,4 +5,4 @@ export interface IEmployeeDao{
     getEmployee(client : string, employeeId: number ) : EmployeeDo;
 }
 
-// dao : data object transfer
+// dao : data access object
